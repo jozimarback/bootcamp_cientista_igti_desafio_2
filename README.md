@@ -1,1 +1,4 @@
-# bootcamp_cientista_igti_desafio_2
+# Bootcamp Cientista Igti Desafio 2
+
+
+Coletar dados de api, armazenar em base de dados mysql conforme enunciado e responder questões
