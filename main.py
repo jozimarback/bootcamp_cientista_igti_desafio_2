@@ -32,5 +32,5 @@ df = pd.merge(df,tipos_s,left_on='tipo_sanguineo',right_on='tipo')
 df = pd.merge(df,cores,left_on='cor',right_on='cor')
 df = pd.merge(df,cidades,left_on='cidade',right_on='nome_cidade')
 print(df)
-# TODO: converter altura e peso em float
-pessoa.inserir(df)
+
+#pessoa.inserir(df)
