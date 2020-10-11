@@ -11,7 +11,7 @@ def inserir(dados):
 
 def obter():
     with connection.cursor() as cursor:
-        sql = "SELECT * FROM `tb_cor`"
+        sql = "SELECT id as id_cor, cor FROM `tb_cor`"
         cursor.execute(sql)
         return pd.DataFrame(cursor.fetchall())
 

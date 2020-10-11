@@ -12,7 +12,7 @@ def inserir(grupos, estados):
 
 def obter():
     with connection.cursor() as cursor:
-        sql = "SELECT * FROM `tb_cidade`"
+        sql = "SELECT id as id_cidade, nome as nome_cidade FROM `tb_cidade`"
         cursor.execute(sql)
         return pd.DataFrame(cursor.fetchall())
 
